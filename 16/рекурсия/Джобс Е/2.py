@@ -12,7 +12,8 @@ G(n)=G(n−3)+5, если n≥10.
 
 import sys
 
-sys.setrecursionlimit(1000000)
+sys.setrecursionlimit(10000)
+
 
 def F(n):
     if n >= 3210:
