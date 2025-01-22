@@ -21,4 +21,3 @@ def F(n):
     return -(F(n - 1))
 
 print(F(20))
-
